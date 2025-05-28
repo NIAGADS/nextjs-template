@@ -17,7 +17,7 @@ const nextConfig: NextConfig = {
             },
             {
                 source: '/api/:path*',
-                destination: `${process.env.NIAGADS_API_HOST}/:path*`,
+                destination: `${process.env.API_PUBLIC_URL}/:path*`,
                 basePath: false
             },
         ]
